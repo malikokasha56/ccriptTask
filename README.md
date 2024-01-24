@@ -1,8 +1,19 @@
-# React + Vite
+# CCRipt task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project consist of two pages as asked in task:
+1) Login page
+2) Appointment page
 
-Currently, two official plugins are available:
+#Login Page:
+  It requires username and password to get log in. If user is authenticated then get token in response which can use further for requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Appointment page:
+  it shows us a navbar along with a table showing us the appointment in front of that starting time.
+  All the data of appointment is coming dynamically from API provided in task
+  We can also logout by clicking on logout button.
+
+#Refreshing token:
+  As told by sir, the token get expired after every 10 minutes. So, the token get refreshed after every 9 minutes after the logging in of user.
+
+#Deployed on netlify:
+  Link : (https://ccripttask.netlify.app)
