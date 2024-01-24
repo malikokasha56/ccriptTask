@@ -15,5 +15,7 @@ Appointment page:
 Refreshing token:
   As told by sir, the token get expired after every 10 minutes. So, the token get refreshed after every 9 minutes after the logging in of user.
 
-Deployed on netlify:
-  Link : (https://ccripttask.netlify.app)
+Deployed on netlify: (https://ccripttask.netlify.app)
+
+HOW TO RUN PROJECT?
+This is vite app. So you can simply clone it and install all modules by useing command "npm i" and you are set to go.
