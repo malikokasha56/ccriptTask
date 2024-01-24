@@ -1,0 +1,15 @@
+.appointment {
+  background-color: #58c3ff;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  width: 162px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 14px;
+}
+.description {
+  font-size: 11px;
+}

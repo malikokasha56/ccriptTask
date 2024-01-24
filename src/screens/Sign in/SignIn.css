@@ -1,0 +1,137 @@
+.container{
+    outline: 0;
+}
+.box{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+    padding-left: 90px;
+    box-shadow: 4px 4px 4px 4px #00000040;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    height: 40%
+}
+.form{
+    margin-left: 20%;
+}
+.form input{
+    width: 50%;
+    height: 20px;
+}
+h3{
+    margin-left: 20%;
+}
+.logo{
+    width: 250px;
+}
+
+.box button{
+    width: 30%;
+    height: 40px;
+    font-size: 22px;
+    color: white;
+    background-color: black;
+    border-radius:22px ;
+}
+.box button,
+h4{
+    margin-left: 25%;
+}
+
+@media only screen and (max-width:1283px) {
+    .box{
+        margin-left: 5%;
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:761px) {
+    .box{
+        width: 60%;
+        margin-left: 5%;
+        margin-top: 10%;
+        padding-left: 90px;
+        box-shadow: 4px 4px 4px 4px #00000040;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: column;
+        height: 40%
+    }
+    .form{
+        margin-left: 20%;
+    }
+    .form input{
+        width: 50%;
+        height: 20px;
+    }
+    h3{
+        margin-left: 20%;
+    }
+    .logo{
+        width: 250px;
+    }
+    
+    .box button{
+        width: 30%;
+        height: 40px;
+        font-size: 22px;
+        color: white;
+        background-color: black;
+        border-radius:22px ;
+    }
+    .box button,
+    h4{
+        margin-left: 18%;
+    }
+    
+}
+
+@media only screen and (max-width:632px){
+    .box{
+        width: 80%;
+        margin-left: 2%;
+        margin-top: 10%;
+        padding-left: 30px;
+        box-shadow: 4px 4px 4px 4px #00000040;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        border-radius: 22px;
+        display: flex;
+        flex-direction: column;
+        height: 40%
+    }
+    .form{
+        margin-left: 10%;
+    }
+    .form input{
+        width: 50%;
+        height: 20px;
+    }
+    h3{
+        margin-left: 10%;
+    }
+    .logo{
+        width: 220px;
+    }
+    
+    .box button{
+        width: 50%;
+        height: 40px;
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        border-radius:22px ;
+    }
+    .box button,
+    h4{
+        margin-left: 10%;
+    } 
+} 

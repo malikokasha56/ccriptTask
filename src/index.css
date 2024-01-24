@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+
+  font-family: "Encode Sans Semi Condensed", sans-serif; /* Weight 200 */
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Mina", sans-serif;
+}
+
+p {
+  font-family: "Ubuntu", sans-serif; /* Weight 300 */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */

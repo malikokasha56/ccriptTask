@@ -1,0 +1,41 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+
+.scrollable_table_container {
+  width: 80%;
+  overflow-x: auto;
+  margin-left: 9%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+
+.scrollable_table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.scrollable_table th,
+.scrollable_table td {
+  border: 1px solid #ddd;
+  padding: 13px;
+  text-align: center;
+  width: 129px;
+}
+
+.scrollable_table th {
+  background-color: white;
+}
+
+.refresh {
+  cursor: pointer;
+}
+
+.tableCell {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1286px) {
+}
